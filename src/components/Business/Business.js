@@ -11,7 +11,7 @@ class Business extends React.Component{
     googleMaps(event) {
         const address =
         `https://www.google.co.uk/maps/place/${this.props.business.address},+${this.props.business.city}`;
-        window.location.href = address;
+        window.open(address);
     }
     
     render(){
