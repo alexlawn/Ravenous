@@ -33,6 +33,11 @@
     flex-direction: column;
     justify-content: space-between;
   }
+
+  .Business-address:hover {
+    color: #CCA353;
+    cursor: pointer;
+  }
   
   .Business-reviews {
     display: flex;
